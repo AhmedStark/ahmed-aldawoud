@@ -10,6 +10,11 @@
 
     <v-spacer></v-spacer>
 
+
+    <v-btn href="/" flat class="white--text hidden-sm-and-down">
+      About me
+    </v-btn>
+
     <v-btn flat class="white--text hidden-sm-and-down">
       My projects
     </v-btn>
@@ -35,11 +40,31 @@
     >
       
 
+    
       <v-list >
-        <v-list-tile  href="/">
-            <v-list-tile-title > Ptoject</v-list-tile-title>
+        <v-list-tile href="/" >
+            <v-list-tile-title class="title"> My project</v-list-tile-title>
             
         </v-list-tile>
+        <v-divider></v-divider>
+        <v-list-tile href="/" >
+            <v-list-tile-title class="title"> My CV</v-list-tile-title>
+            
+        </v-list-tile>
+
+        <v-divider></v-divider>
+
+        <v-list-tile href="/" >
+            <v-list-tile-title class="title"> My experience</v-list-tile-title>
+            
+        </v-list-tile>
+
+        <v-divider></v-divider>
+        <v-list-tile href="/" >
+            <v-list-tile-title class="title"> Contact me</v-list-tile-title>
+            
+        </v-list-tile>
+        <v-divider></v-divider>
       </v-list>
     </v-navigation-drawer>
     </div>
@@ -55,6 +80,9 @@
     }
   }
 </script>
+
 <style>
-    
+.v-btn{
+  text-decoration: none;
+}
 </style>
