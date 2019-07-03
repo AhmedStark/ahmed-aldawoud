@@ -1,12 +1,12 @@
 <template>
     <div>
-  <v-toolbar color="teal darken-4">
+  <v-toolbar app dark color=" teal darken-4">
     
-    <v-toolbar-side-icon  @click.stop="drawer = !drawer" class="white hidden-md-and-up"></v-toolbar-side-icon>
+    <v-toolbar-side-icon  @click.stop="drawer = !drawer"  class="hidden-md-and-up"></v-toolbar-side-icon>
 
 
     
-    <v-toolbar-title class="white--text">Welcome:)</v-toolbar-title>
+    <v-toolbar-title class="lime--text">Welcome:)</v-toolbar-title>
 
     <v-spacer></v-spacer>
 
@@ -31,12 +31,15 @@
       Contact me
     </v-btn>
   </v-toolbar>
+
+
   <v-navigation-drawer
-    class="teal darken-3"
+    class="teal darken-3 fixed"
       v-model="drawer"
       absolute
       temporary
       dark
+      
     >
       
 
@@ -67,6 +70,7 @@
         <v-divider></v-divider>
       </v-list>
     </v-navigation-drawer>
+    
     </div>
 </template>
 
@@ -82,7 +86,7 @@
 </script>
 
 <style>
-.v-btn{
-  text-decoration: none;
-}
+  .fixed{
+    position: fixed;
+  }
 </style>

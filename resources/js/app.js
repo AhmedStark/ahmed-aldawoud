@@ -28,6 +28,10 @@ window.Vue = require('vue');
 
 Vue.component('nav-bar', require('./components/NavBar.vue').default);
 Vue.component('my-projects', require('./components/MyProjects.vue').default);
+Vue.component('about-me', require('./components/AboutMe.vue').default);
+Vue.component('social', require('./components/Social.vue').default);
+Vue.component('my-cv', require('./components/MyCV.vue').default);
+Vue.component('my-exp', require('./components/MyExperience.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to

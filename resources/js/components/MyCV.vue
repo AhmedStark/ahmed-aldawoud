@@ -9,8 +9,8 @@
             <v-flex>
                 <v-card-title class="display-3 white--text">
                     
-                    About 
-                    <span class="lime--text bold"> me</span>
+                    My 
+                    <span class="lime--text bold"> CV</span>
                 </v-card-title>
                 <v-divider class="mx-4"></v-divider>
 

@@ -14,3 +14,8 @@
 Route::get('/', function () {
     return view('mainTemplate');
 });
+
+
+Route::get('/login','UserController@loginView');
+Route::post('/login','UserController@login');
+

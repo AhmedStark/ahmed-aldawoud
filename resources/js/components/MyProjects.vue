@@ -1,14 +1,13 @@
 <template>
-  <div class="grey lighten-5 myprojects" >
+  <div class="teal lighten-1" >
       <v-container>
           <v-card class="white">
-            <v-card-title>
-            <p class="black--text display-3">
+            <v-card-title class="teal--text display-3">            
                 My
                 <b class="lime--text">
-                    Projects
+                    projects
                 </b>
-            </p>
+            
             </v-card-title>
             <v-divider class="mx-4"></v-divider>    
             <v-card-text>
@@ -46,10 +45,7 @@
   </div>
 </template>
 <style>
-.myprojects{
 
-    height: 600pt;
-}
 
 </style>
 
